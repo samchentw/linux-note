@@ -1,8 +1,6 @@
-Crontab指令
+# Crontab指令
 
-1. Linux Cron 指令
-
- 
+## 1. Linux Cron 指令
 
     crontab -l    列出該使用者擁有的 crontab 指令
 
@@ -13,8 +11,7 @@ Crontab指令
     crontab -u   改變排程的執行身分: crontab -u user filename
 
 
-
-2.編寫方法
+## 2.編寫方法
 
 基本上，我們只需要按照『分鐘』、『小時』、『日期』、『月份』、『星期』五個欄位輸入，最後加上 command 即可。 
 

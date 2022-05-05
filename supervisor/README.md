@@ -3,7 +3,6 @@ Supervisor套件
 ## Supervisor 是 Linux 環境中常用的進程監視器，我們將在以下文檔中討論如何配置它。
 
 
-
 ## 安裝
 ```
 sudo apt-get install supervisor
@@ -31,11 +30,11 @@ stopwaitsecs=3600
 ```
 
 
-## Save the file, then go to the end of  supervisord.conf  and change the path as shown below.
-
+## 保存文件，到supervisord.conf 檔後後在最後一行改為以下，如下所示。
+```
 [include]
 files = /etc/supervisor/laravel-worker.conf
-
+```
 
 
 
