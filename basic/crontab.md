@@ -25,11 +25,11 @@
 
 比如說我有個想要執行的 test.sh 檔，然後我希望每天凌晨十二點都可以執行一次，那麼我就要寫下以下指令：
 ```
-* 0 * * * sh /home/clay/test.sh
+* 0 * * * sh /home/test.sh
 ```
-如果我有個 test.py 的 Python 程式希望可以每 5 分鐘執行一次，那麼我可以寫下：
+如果我有個 test.js 的 node 程式希望可以每 5 分鐘執行一次，那麼我可以寫下：
 ```
-*/5 * * * python3 /home/clay/test.py
+*/5 * * * node /home/test.js
 ```
 最好使用『絕對路徑』來指向要執行的檔案比較好哦。
 
