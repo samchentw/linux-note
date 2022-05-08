@@ -16,7 +16,7 @@ sudo apt install php[version]
 sudo apt install php7.1 php7.1-common php7.1-opcache php7.1-mcrypt php7.1-cli php7.1-gd php7.1-curl php7.1-mysql
 ```
 
-切換版本
+可以使用update-alternatives切換版本
 ```
 sudo update-alternatives --config php
 ```

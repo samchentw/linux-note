@@ -1,6 +1,5 @@
-Supervisor套件
-
-## Supervisor 是 Linux 環境中常用的進程監視器，我們將在以下文檔中討論如何配置它。
+# Supervisor套件
+Supervisor 是 Linux 環境中常用的進程監視器，我們將在以下文檔中討論如何配置它。
 
 
 ## 安裝
