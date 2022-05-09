@@ -29,6 +29,9 @@ sudo apt autoclean
 # 顯示插件說明
 sudo apt show code 
 
+# 檢查是否有損壞的依賴
+sudo apt-get check 
+
 # 搜尋插件
 apt search gitkraken
 ```
