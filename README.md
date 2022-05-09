@@ -12,5 +12,5 @@
 - [snapcraft](https://github.com/samchentw/linux-note/tree/master/snapcraft)
 - [進程管理 - supervisor](https://github.com/samchentw/linux-note/tree/master/supervisor)
 - [編輯器 - vim](https://github.com/samchentw/linux-note/tree/master/vim)
-- [php](https://github.com/samchentw/linux-note/tree/master/php)
+- [程式語言 php](https://github.com/samchentw/linux-note/tree/master/php)
 - [伺服器 - caddy](https://github.com/samchentw/linux-note/tree/master/caddy)
