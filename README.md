@@ -15,3 +15,4 @@
 - [程式語言 php](https://github.com/samchentw/linux-note/tree/master/php)
 - [伺服器 - caddy](https://github.com/samchentw/linux-note/tree/master/caddy)
 - [伺服器 - apache](https://github.com/samchentw/linux-note/tree/master/apache)
+- [輸入法 - fcitx](https://github.com/samchentw/linux-note/tree/master/fcitx)
