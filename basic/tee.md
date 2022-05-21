@@ -13,7 +13,7 @@ ls | tee temp.txt
 echo "run" | tee temp.txt
 ```
 
-## 同時存到檔案和顯示在螢幕上 (附加在 result.txt 原內容後面)
+## 同時存到檔案和顯示在螢幕上 (附加在 temp.txt 原內容後面)
 ```
 ls | tee -a temp.txt
 ```
