@@ -8,13 +8,13 @@ sudo apt update
 # 升級apt
 sudo apt upgrade
 
-# 安裝某插件
+# 安裝某插件(以vs code為例)
 sudo apt install code
 
 # 然後執行，觀看有哪些套件需要更新
 apt list --upgradable
 
-# 移除某插件
+# 移除某插件(以vs code為例)
 sudo apt remove code
 
 # 移除依賴(刪東西比較乾淨)
@@ -34,5 +34,13 @@ sudo apt-get check
 
 # 搜尋插件
 apt search gitkraken
-```
 
+# 安裝.deb檔
+sudo dpkg -i package_file.deb
+
+# 顯示已安裝項目
+apt list --installed
+
+# 顯示可更新套件
+apt list --upgradeable
+```
