@@ -64,9 +64,9 @@ vim ports.conf
 
 ```
 
-在執行以下指令
+在執行以下指令，
 ```
-sudo a2ensite site.conf //啟用site.conf設定
+sudo a2ensite site.conf //啟用site.conf設定，啟用後將site-enable出現site.conf
 sudo a2dissite site.conf //關閉site.conf設定
 
 ```
