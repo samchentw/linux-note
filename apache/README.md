@@ -50,7 +50,7 @@ vim ports.conf
    
    # vim: syntax=apache ts=4 sw=4 sts=4 sr noet
 ```
-在到sites-enabled資料夾下建立site.conf檔
+在到sites-available資料夾下建立site.conf檔
 ```
 <VirtualHost *:81>
 
@@ -61,6 +61,14 @@ vim ports.conf
         CustomLog ${APACHE_LOG_DIR}/access.log combined
 
 </VirtualHost>
+
+```
+
+在執行以下指令
+```
+sudo a2ensite site.conf //啟用site.conf設定
+sudo a2dissite site.conf //關閉site.conf設定
+
 ```
 建立完後重新啟動apache2
 ```
