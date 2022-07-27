@@ -11,6 +11,8 @@
 - [free指令](https://github.com/samchentw/linux-note/blob/master/basic/free.md)
 - [tar指令](https://github.com/samchentw/linux-note/blob/master/basic/tar.md)
 - [tee指令](https://github.com/samchentw/linux-note/blob/master/basic/tee.md)
+- [user帳號](https://github.com/samchentw/linux-note/blob/master/basic/user.md)
+- [net網路](https://github.com/samchentw/linux-note/blob/master/basic/net.md)
 - [else](https://github.com/samchentw/linux-note/blob/master/basic/else.md)
     - 錄影時間拉長
     - 常用快捷鍵

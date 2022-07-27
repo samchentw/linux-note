@@ -6,12 +6,12 @@
 
 狀態
 ```
- sudo systemctl status apache2
+sudo systemctl status apache2
 ```
 
 啟用
 ```
- sudo systemctl start apache2
+sudo systemctl start apache2
 ```
 
 重啟
