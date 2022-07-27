@@ -18,6 +18,12 @@ ip addr show eth0 # 查詢個別網卡的資訊:
 ip route # 或ip route list、ip r
 ```
 
+## ss指令
+```
+ss -tulpn | grep LISTEN # 查詢所有開啟的 TCP 與 UDP 連接埠
+```
+
+
 ## 安裝net-tools網路工具
 ```
 apt install net-tools
