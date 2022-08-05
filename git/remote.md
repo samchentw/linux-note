@@ -27,6 +27,13 @@ git checkout <branch>
 git fetch <branch>
 ```
 
+## 加入遠端數據庫
+```
+git branch -M master  # 建立主分支
+git remote add origin https://github.com/samchentw/xxx.git  # 加入遠端資料庫
+git push -u origin master # 第一次推送
+```
+
 ## 拉取遠端最新資料
 ```
 git pull
