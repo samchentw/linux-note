@@ -41,15 +41,15 @@ files = /etc/supervisor/laravel-worker.conf
 ## supervisor指令
 創建配置文件後，您可以更新 Supervisor 配置並使用以下命令啟動進程：
 ```
-sudo supervisorctl reread
+sudo supervisorctl reread  # 重新讀取設定
 
-sudo supervisorctl update
+sudo supervisorctl update # 更新設定
 
-sudo supervisorctl start laravel-worker:*
+sudo supervisorctl start laravel-worker:*  # 啟用某個supervisorctl進程
 
-sudo supervisorctl stop laravel-worker:*
+sudo supervisorctl stop laravel-worker:*  # 關閉某個supervisorctl進程
 
-sudo supervisorctl status
+sudo supervisorctl status # 查看狀態
 
 ```
 
