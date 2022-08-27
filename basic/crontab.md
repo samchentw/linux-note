@@ -1,15 +1,12 @@
 # Crontab指令
 
 ## 1. Linux Cron 指令
-
-    crontab -l    列出該使用者擁有的 crontab 指令
-
-    crontab -e   編輯該使用者的 crontab 指令
-
-    crontab -r    將使用者的 crontab 全部清除！（ 小心使用 ）
-
-    crontab -u   改變排程的執行身分: crontab -u user filename
-
+```
+crontab -l   # 列出該使用者擁有的 crontab 指令
+crontab -e   # 編輯該使用者的 crontab 指令
+crontab -r   # 將使用者的 crontab 全部清除！（ 小心使用 ）
+crontab -u   # 改變排程的執行身分: crontab -u user filename
+```
 
 ## 2.編寫方法
 
@@ -38,4 +35,10 @@
 ```
 export VISUAL=vim
 export EDITOR=vim
+```
+
+
+## 以laravel schedule來當使用範例
+```
+* * * * * cd /home/samchentw/laravel-project-path && php artisan schedule:run >> /dev/null 2>&1
 ```
