@@ -67,6 +67,10 @@ touch note.txt
 ```
 touch file{1..10}.txt
 ```
+## 終端機開啟檔案管理
+```
+sudo nautilus
+```
 
 ## linux權限表
 

@@ -20,3 +20,4 @@
 - [ssh連線 ssh](https://github.com/samchentw/linux-note/tree/master/ssh)
 - [資安 security](https://github.com/samchentw/linux-note/tree/master/security)
 - [服務 service](https://github.com/samchentw/linux-note/tree/master/service)
+- [CICD jenkins](https://github.com/samchentw/linux-note/tree/master/jenkins)

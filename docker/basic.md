@@ -26,7 +26,7 @@ docker run -p 8080:8080 mytomcat
 ```
 docker exec  -it {containerID} bash
 
- docker exec -it mypostgres bash
+docker exec -it mypostgres bash
 ```
 
 ## 移除沒在用的volume
