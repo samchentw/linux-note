@@ -36,6 +36,10 @@ systemctl is-enabled apache2
 # enabled/disabled
 ```
 
+## 守護進程重啟(修變設定檔後需執行)
+```
+sudo systemctl daemon-reload
+```
 
 ## is-active檢查一個服務是否啟動：
 ```
