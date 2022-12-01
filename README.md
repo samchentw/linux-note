@@ -15,6 +15,7 @@
 - [程式語言 php](https://github.com/samchentw/linux-note/tree/master/php)
 - [伺服器 - caddy](https://github.com/samchentw/linux-note/tree/master/caddy)
 - [伺服器 - apache](https://github.com/samchentw/linux-note/tree/master/apache)
+- [伺服器 - nginx](https://github.com/samchentw/linux-note/tree/master/nginx)
 - [輸入法 - fcitx](https://github.com/samchentw/linux-note/tree/master/fcitx)
 - [磁碟相關 - disk](https://github.com/samchentw/linux-note/tree/master/disk)
 - [ssh連線 ssh](https://github.com/samchentw/linux-note/tree/master/ssh)
