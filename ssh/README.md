@@ -20,7 +20,7 @@ sudo service ssh startss
 ## 連線到其他ssh服務(client端)
 ```
 ssh username@192.168.1.2 
-ssh -i "xxx.pem" ubuntu@exxxxxxxxx.compute.amazonaws.com  #aws為例
+ssh -i "xxx.pem" ubuntu@exxxxxxxxx.compute.amazonaws.com 
 ```
 
 

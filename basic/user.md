@@ -15,3 +15,9 @@ getent passwd
 ```
 getent passwd root
 ```
+
+## 建立使用者與設定密碼
+sudo useradd ian
+sudo passwd ian
+sudo mkdir /home/ian -p
+chown ian:ian /home/ian
