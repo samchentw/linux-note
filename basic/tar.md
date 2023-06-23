@@ -23,9 +23,9 @@ tar指令只是打包資料，不包含解壓縮，
 
 -f：指定打包的名字
 
-## 範例一（打包檔案）把new資料夾打包
+## 範例一（打包檔案）把myfolder資料夾打包
 ```
-tar -cvf new.tar new
+tar -cvf myfolder.tar myfolder
 ```
 
 ## 範例二（解開打包檔案）
@@ -33,4 +33,10 @@ tar -cvf new.tar new
 tar -xvf new.tar
 ```
 
+
+## tar.gz 格式
+```
+tar -zcvf myfolder.tar myfolder
+tar -zxvf myfolder.tar
+```
 
